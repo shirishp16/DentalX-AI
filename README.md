@@ -39,7 +39,7 @@ IMPORTANT: The /model and /backend contents must be downloaded for the model to 
 - pip / virtualenv
 
 1. **Clone the repository:**  
-   git clone https://github.com/your-username/your-repo.git  
+   git clone https://shirishp16.github.io/DentalX-AI 
    cd your-repo  
 2. **Download Required Files:**  
    **IMPORTANT:** Download the contents of the `model` folder (pre-trained model weights and configs) and the `backend` folder (Flask API code and utilities) from the provided source. Place these files into the `/model` and `/backend` directories respectively before proceeding.  
