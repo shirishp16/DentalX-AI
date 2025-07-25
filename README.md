@@ -54,7 +54,7 @@ IMPORTANT: The /model and /backend contents must be downloaded for the model to 
    flask run  
 
 ## Usage
-1. Open your browser and go to `http://localhost:3000`.  
+1. Open your browser and go to `http://localhost:5001`.  
 2. Drag-and-drop a dental x-ray image into the upload area.  
 3. View the predicted diagnosis and confidence score.  
 
@@ -63,5 +63,8 @@ IMPORTANT: The /model and /backend contents must be downloaded for the model to 
 - Ensure all dependencies are installed as per prerequisites.  
 - Check the Flask console for error messages.
 
-## License
-MIT License. See [LICENSE](LICENSE) for details.
+## Author
+
+**Shirish Parasae**  
+- GitHub: [shirishp16](https://github.com/shirishp16)  
+- Email: shirishparasa@gmail.com  
