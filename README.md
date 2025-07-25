@@ -18,6 +18,7 @@ DentalX AI is a web application that uses deep learning to analyze dental X-ray 
 - Sample image included for quick testing
 - Clean and responsive UI
 
+IMPORTANT: The /model and /backend contents must be downloaded for the model to run. 
 
 
 ---
@@ -25,7 +26,7 @@ DentalX AI is a web application that uses deep learning to analyze dental X-ray 
 ## How It Works
 - Frontend built with **React + TypeScript**
 - Backend model trained with **TensorFlow/Keras**
-- Images are preprocessed and passed through a custom CNN
+- Images are preprocessed and passed through a custom CNN model
 - The model outputs multi-label predictions for each condition
 
 ---
