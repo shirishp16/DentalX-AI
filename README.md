@@ -16,9 +16,10 @@ DentalX AI is a web application that uses deep learning to analyze dental X-ray 
   - 🕳️ Cavities
   - 🧱 Impacted Teeth
 - Sample image included for quick testing
+- Learn page containing information about dental x-ray classification
 - Clean and responsive UI
 
-IMPORTANT: The /model and /backend contents must be downloaded for the model to run. 
+IMPORTANT: The /model and /backend contents must be downloaded for the model to run. However, you can still view the UI and explore the other features of the site!
 
 
 ---
