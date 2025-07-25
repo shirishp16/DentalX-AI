@@ -38,7 +38,29 @@ IMPORTANT: The /model and /backend contents must be downloaded for the model to 
 - Python 3.9 
 - pip / virtualenv
 
-### 1. Clone the repo
-```bash
-git clone https://github.com/shirishparasa/DentalX-AI.git
-cd dentalx-ai
+1. **Clone the repository:**  
+   git clone https://github.com/your-username/your-repo.git  
+   cd your-repo  
+2. **Download Required Files:**  
+   **IMPORTANT:** Download the contents of the `model` folder (pre-trained model weights and configs) and the `backend` folder (Flask API code and utilities) from the provided source. Place these files into the `/model` and `/backend` directories respectively before proceeding.  
+3. **Setup Frontend:**  
+   cd frontend  
+   npm install  
+   npm start  
+4. **Setup Backend:**  
+   cd backend  
+   pip install -r requirements.txt  
+   flask run  
+
+## Usage
+1. Open your browser and go to `http://localhost:3000`.  
+2. Drag-and-drop a dental x-ray image into the upload area.  
+3. View the predicted diagnosis and confidence score.  
+
+## Troubleshooting
+- Confirm that the `model` and `backend` folders contain the downloaded files.
+- Ensure all dependencies are installed as per prerequisites.  
+- Check the Flask console for error messages.
+
+## License
+MIT License. See [LICENSE](LICENSE) for details.
