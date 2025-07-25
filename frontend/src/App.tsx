@@ -523,7 +523,7 @@ const UploadPage: React.FC = () => {
       </Main>
       <SampleBox>
         <SampleImage
-          src="/sample-xray.jpg"
+          src={`${process.env.PUBLIC_URL}/sample-xray.jpg`}
           alt="Sample Dental X-ray"
           style={{cursor:'pointer'}}
           onClick={handleSampleClick}
