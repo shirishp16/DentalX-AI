@@ -338,7 +338,7 @@ const learnRows = [
       'It provides a strong foundation for a crown, bridge, or denture, functioning and looking like a natural tooth, fusing with the bone over time',
       'This can be identified as a bright, screw-like structure embedded in the jawbone, distinct from natural teeth due to its metallic density',
     ],
-    image: '/implant-example.jpg',
+    image: `${process.env.PUBLIC_URL}/implant-example.jpg`,
     caption: 'Implant Example',
   },
   {
@@ -348,7 +348,7 @@ const learnRows = [
       'It restores the tooth’s shape, function, and integrity after the decayed portion is removed.',
       'Filling material appears as a distinct, well-defined area brighter than the surrounding tooth structure, especially if made of metal',
     ],
-    image: '/filling-example.jpg',
+    image: `${process.env.PUBLIC_URL}/filling-example.jpg`,
     caption: 'Filling Example',
   },
   {
@@ -358,7 +358,7 @@ const learnRows = [
       'It creates holes or soft spots in the enamel that can grow deeper over time if untreated, and result from poor oral hygiene or diet.',
       'Cavities appear as a slightly darker area within the enamel, indicating loss of mineral density compared to healthy tooth structure'
     ],
-    image: '/cavity-example.jpg',
+    image: `${process.env.PUBLIC_URL}/cavity-example.jpg`,
     caption: 'Cavity Example',
   },
   {
@@ -368,7 +368,7 @@ const learnRows = [
       'This most commonly occurs with wisdom teeth (shown in image) and can lead to pain, swelling, or infection if left untreated.',
       'Generally, this appears as a tooth positioned abnormally or trapped beneath the gum or bone, pushing against adjacent teeth',
     ],
-    image: '/impacted-tooth-example.webp',
+    image: `${process.env.PUBLIC_URL}/impacted-tooth-example.webp`,
     caption: 'Impacted Tooth Example',
   },
 ];
@@ -437,7 +437,7 @@ const UploadPage: React.FC = () => {
 
   // Remove drag logic for sample image, use click to select instead
   const handleSampleClick = async () => {
-    const response = await fetch('/sample-xray.jpg');
+    const response = await fetch(`${process.env.PUBLIC_URL}/sample-xray.jpg`);
     const blob = await response.blob();
     const file = new File([blob], 'sample-xray.jpg', { type: blob.type });
     setSelectedFile(file);
