@@ -455,7 +455,7 @@ const UploadPage: React.FC = () => {
       formData.append('file', selectedFile);
       // Change the URL below to your Flask backend endpoint
       console.log("📡 About to POST to:", "/predict");
-      const response = await fetch("/predict", {
+      const response = await fetch("http://localhost:5001/predict", {
         method: 'POST',
         body: formData,
       });
