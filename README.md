@@ -19,7 +19,7 @@ DentalX AI is a web application that uses deep learning to analyze dental X-ray 
 - Learn page containing information about dental x-ray classification
 - Clean and responsive UI
 
-IMPORTANT: The /model and /backend contents must be downloaded for the model to run. However, you can still view the UI and explore the other features of the site!
+IMPORTANT: The /model and /backend contents must be downloaded for the model to run only in local development. However, you can still view the UI and explore the other features of the site!
 
 
 ---
@@ -44,19 +44,20 @@ IMPORTANT: The /model and /backend contents must be downloaded for the model to 
    cd your-repo  
 2. **Download Required Files:**  
    **IMPORTANT:** Download the contents of the `model` folder (pre-trained model weights and configs) and the `backend` folder (Flask API code and utilities) from the provided source. Place these files into the `/model` and `/backend` directories respectively before proceeding.  
-3. **Setup Frontend:**  
-   cd frontend  
-   npm install  
-   npm start  
-4. **Setup Backend:**  
+3. **Setup Backend:**  
    cd backend  
    pip install -r requirements.txt  
    flask run  
+4. **Setup Frontend:**
+   cd frontend  
+   npm install (if not installed already)
+   npm start  
 
 ## Usage
 1. Open your browser and go to `http://localhost:5001`.  
-2. Drag-and-drop a dental x-ray image into the upload area.  
-3. View the predicted diagnosis and confidence score.  
+2. Drag-and-drop or select file of a panoramic dental x-ray image into the upload area.  
+3. View the predicted diagnosis and confidence score.
+4. Navigate to the Learn page to understand dental classifications and medical diagnostics 
 
 ## Troubleshooting
 - Confirm that the `model` and `backend` folders contain the downloaded files.
